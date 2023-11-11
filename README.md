@@ -56,8 +56,7 @@ streamlit run main.py
 
 ## Demo
 
-[![Watch the demo video](https://example.com/demo-video-thumbnail.jpg)](https://vimeo.com/883508507?share=copy)
-https://github.com/rakshikasprasad/EpicVision/assets/35270173/223656c7-5ad7-44b4-84f9-f43660ccdbd8
+![https://github.com/rakshikasprasad/EpicVision/assets/35270173/223656c7-5ad7-44b4-84f9-f43660ccdbd8
 
 
 

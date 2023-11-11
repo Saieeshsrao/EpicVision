@@ -62,14 +62,13 @@ https://github.com/rakshikasprasad/EpicVision/assets/35270173/223656c7-5ad7-44b4
 
 ## Screenshots
 After converting video to frames
-![App Screenshot](Outputs/before.jpg?raw=true)
+![After converting video to frames](https://github.com/rakshikasprasad/EpicVision/assets/35270173/a15ebb4e-a2a8-4a13-a9ba-372927c37f7e)
 
 Using RealESRGAN and GFPGAN models for enhancement
-![App Screenshot](Outputs/after_gfp_and_realesr_GANs.jpg?raw=true)
+![after_gfp_and_realesr_GANs](https://github.com/rakshikasprasad/EpicVision/assets/35270173/869ef60d-f739-456f-b7ca-3c068d4881ad)
 
 Predictions of age gender race and emotion
-![App Screenshot](Outputs/predictions.png?raw=true)
-
+![predictions](https://github.com/rakshikasprasad/EpicVision/assets/35270173/ce074736-829d-4924-a45c-f88c1c36b7db)
 
 
 ## Authors

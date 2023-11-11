@@ -56,7 +56,8 @@ streamlit run main.py
 
 ## Demo
 
-Insert gif or link to demo
+[![Watch the demo video](https://example.com/demo-video-thumbnail.jpg)](https://vimeo.com/883508507?share=copy)
+
 
 
 ## Screenshots

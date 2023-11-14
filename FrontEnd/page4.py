@@ -30,7 +30,7 @@ def analyze_image_and_send_report(uploaded_image, user_email):
 
     # Display the analysis results
     st.write("Analysis Results:")
-    st.write(f"Age: {objs[0]['age']-10}")  # Access age value correctly
+    st.write(f"Age: {objs[0]['age']}")  # Access age value correctly
     st.write(f"Gender: {objs[0]['dominant_gender']}")
     st.write(f"Race: {objs[0]['dominant_race']}")  
     st.write(f"Emotion: {objs[0]['dominant_emotion']}")
@@ -57,7 +57,7 @@ def analyze_image_and_send_report(uploaded_image, user_email):
     emotion = objs[0]['dominant_emotion']
 
     # Create formatted text with borders and alignment
-    pdf.multi_cell(0, 10, f"Age: {objs[0]['age']-10}")  # Access age value correctly
+    pdf.multi_cell(0, 10, f"Age: {objs[0]['age']}")  # Access age value correctly
     pdf.multi_cell(0, 10, f"Gender: {objs[0]['dominant_gender']}")  # Access gender value correctly
     pdf.multi_cell(0, 10, f"Race: {objs[0]['dominant_race']}")
     pdf.multi_cell(0, 10, f"Emotion: {objs[0]['dominant_emotion']}")
@@ -130,7 +130,7 @@ def store_results_in_database(image_path, age, gender, race, emotion):
         cursor = connection.cursor()
 
         insert_query = "INSERT INTO analysis_results (image_path, predicted_age, predicted_gender, predicted_race, predicted_emotion) VALUES (%s, %s, %s, %s, %s)"
-        data = (image_path, age - 10, gender, race, emotion)
+        data = (image_path, age, gender, race, emotion)
         cursor.execute(insert_query, data)
 
         connection.commit()
